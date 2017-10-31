@@ -54,6 +54,9 @@ Descripcion: Definicion de tokens para el lenguaje ALFA
 #define TOK_TRUE                401
 #define TOK_FALSE               402
 
+#define TOK_IGNORED              69
+#define TOK_SALTOLINEA           77
+
 /* Errores */
 #define TOK_ERROR                -1
 
