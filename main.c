@@ -152,7 +152,7 @@ int main(int argc, char *argv[]){
 				break;
 			case TOK_SALTOLINEA:
 				cont_lineas++;
-				cont_column = 1;
+				cont_column = 0;
 				break;
 		}
 

@@ -25,7 +25,7 @@ return { return TOK_RETURN; }
 true { return TOK_TRUE; }
 false { return TOK_FALSE; }
 
-"//"[0-9a-zA-Z ]* { return TOK_IGNORED; }
+"//".* { return TOK_IGNORED; }
 
 ";" { return TOK_PUNTOYCOMA; }
 "," { return TOK_COMA; }
