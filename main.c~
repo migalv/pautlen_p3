@@ -146,9 +146,6 @@ int main(int argc, char *argv[]){
 			case TOK_TRUE:
 				fprintf(yyout, "TOK_TRUE\t%d\t%s\n", TOK_TRUE, yytext);
 				break;
-			case TOK_FALSE:
-				fprintf(yyout, "TOK_FALSE\t%d\t%s\n", TOK_FLASE, yytext);
-				break;
 			case TOK_ERROR:
 				fprintf(stderr, "****Error en [lin %d, col %d]: simbolo no permitido (%s)\n", cont_lineas, cont_column, yytext);
 				return 1;
